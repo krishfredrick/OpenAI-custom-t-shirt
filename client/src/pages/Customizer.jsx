@@ -58,7 +58,7 @@ function Customizer() {
     if(!prompt) return alert("please enter a prompt");
     try {
       setGeneratingImg(true);
-      const response = await fetch(backendUrl, {
+      const response = await fetch(config.production.backendUrl, {
         method:'POST',
         headers:{
           'Content-Type': 'application/json'
