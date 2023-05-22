@@ -6,7 +6,7 @@ import CustomButton from './CustomButton'
 
 function AiPicker({prompt, setPrompt, generatingImg, handleSubmit}) {
   return (
-    <div className='apipicker-container'>
+    <div className='aipicker-container'>
       <textarea
        className='apipicker-textarea'
        placeholder='Genearte Prompt'
